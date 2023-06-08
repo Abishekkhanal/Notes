@@ -1,0 +1,51 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  .container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  aside {
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: solid;
+  }
+  
+  iframe {
+    width: 850px;
+    height: 525px;
+    border: none;
+  }
+  
