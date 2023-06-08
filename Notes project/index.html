@@ -5,19 +5,13 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <script src="https://hcaptcha.com/1/api.js" async defer></script>
-
-
-  <div class="login-container">
+<div class="login-container">
     <h1>Login</h1>
     <form id="login-form" onsubmit="validateForm(event)">
       <input type="text" id="username" placeholder="Enter Username">
       <input type="password" id="password" placeholder="Enter Password">
       <p id="error-message"></p>
-      <div class="h-captcha" data-sitekey="0x5B585F2830fb6335d613A72aCF920145252ce8b5"></div>
-<button type="submit" onclick="validateForm(event)">Login</button>
-
-      <!-- <button type="submit">Login</button> -->
+      <button type="submit">Login</button>
     </form>
     
   </div>

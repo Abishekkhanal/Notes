@@ -20,19 +20,5 @@ function validateForm(event) {
       window.open('notes.html', '_blank');
     }
   }
-
-
-
-  function validateForm(event) {
-    event.preventDefault();
-    var captchaResponse = document.getElementById('h-captcha-response').value;
-  
-    if (!captchaResponse) {
-      document.getElementById("error-message").textContent = "Please complete the CAPTCHA.";
-    } else {
-      // Continue with your existing login form validation and submission code here.
-    }
-  }
-  
   
   
