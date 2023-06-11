@@ -7,16 +7,17 @@ function validateForm(event) {
     
     if (username === "" || password === "") {
       errorMessage.textContent = "Please fill in all fields.";
-      
-    } else if (username !== "abishek" || password !== "10") {
+    }
+    
+    else if (username !== "abishek" || password !== "10") 
+    {
       errorMessage.textContent = "Invalid username or password.";
-    } else {
-      // Successful login
-    //   alert("Login successful!");
+    }
+    
+    else {
       document.getElementById("login-form").reset();
       errorMessage.textContent = "";
   
-      // Redirect to the landing page
       window.open('notes.html', '_blank');
     }
   }
